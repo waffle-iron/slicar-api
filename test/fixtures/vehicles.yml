@@ -1,0 +1,74 @@
+# == Schema Information
+#
+# Table name: vehicles
+#
+#  id                :integer          not null, primary key
+#  title             :string
+#  model             :integer
+#  color             :string
+#  short_description :string
+#  long_description  :text
+#  price_per_hour    :decimal(, )
+#  price_per_day     :decimal(, )
+#  transmission      :integer
+#  doors             :integer
+#  passengers        :integer
+#  air_conditioner   :boolean
+#  luggage           :boolean
+#  dvd               :boolean
+#  gps               :boolean
+#  radio             :boolean
+#  usb               :boolean
+#  fuelt_type        :integer
+#  latitude          :decimal(, )
+#  longitude         :decimal(, )
+#  user_id           :integer
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  model: 1
+  color: MyString
+  short_description: MyString
+  long_description: MyText
+  price_per_hour: 9.99
+  price_per_day: 9.99
+  transmission: 1
+  doors: 1
+  passengers: 1
+  air_conditioner: false
+  luggage: false
+  dvd: false
+  gps: false
+  radio: false
+  usb: false
+  fuelt_type: 1
+  latitude: 9.99
+  longitude: 9.99
+  user: one
+
+two:
+  title: MyString
+  model: 1
+  color: MyString
+  short_description: MyString
+  long_description: MyText
+  price_per_hour: 9.99
+  price_per_day: 9.99
+  transmission: 1
+  doors: 1
+  passengers: 1
+  air_conditioner: false
+  luggage: false
+  dvd: false
+  gps: false
+  radio: false
+  usb: false
+  fuelt_type: 1
+  latitude: 9.99
+  longitude: 9.99
+  user: two
