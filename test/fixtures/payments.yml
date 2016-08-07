@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: payments
+#
+#  id             :integer          not null, primary key
+#  reservation_id :integer
+#  date           :datetime
+#  transaction_id :string
+#  status         :integer
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reservation: one
+  date: 2016-08-07 15:18:15
+  transaction_id: MyString
+  status: 1
+
+two:
+  reservation: two
+  date: 2016-08-07 15:18:15
+  transaction_id: MyString
+  status: 1
