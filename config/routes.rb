@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :users
 
   namespace :api, defaults: { format: :json }, path: '/' do
     # We are going to list our resources here
@@ -14,4 +13,6 @@ Rails.application.routes.draw do
 
   end
 
+  devise_for :users
+  
 end
