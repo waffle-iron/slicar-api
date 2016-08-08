@@ -33,7 +33,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.0]
       t.string :complete_name
       t.date :birthday
       t.string :cellphone
-      t.string :referall_code
+      t.string :referral_code
       t.string :code_to_refer
       t.integer :profession
       t.integer :service_use

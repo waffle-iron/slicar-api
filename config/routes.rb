@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  namespace :api, defaults: { format: :json }, path: '/' do
+  namespace :api, defaults: { format: :json } do
     # We are going to list our resources here
-    scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
+    namespace :v1 do
       # We are going to list our resources here
       resources :users, :only => [:show, :create, :update, :destroy] do
         collection do
@@ -14,5 +14,5 @@ Rails.application.routes.draw do
   end
 
   devise_for :users
-  
+
 end
